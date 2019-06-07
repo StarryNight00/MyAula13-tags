@@ -17,8 +17,11 @@ namespace TestProjectForGit
         // And this is an instance method
         private void PrintSomething()
         {
+            string s1 = "Olá Mundo";
+
             Console.WriteLine("I'm a test for git tags");
             Console.WriteLine("Tags are a good way to remember versions");
+            Console.WriteLine(s1);
             Console.ReadKey();
         }
     }
